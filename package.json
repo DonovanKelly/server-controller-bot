@@ -1,0 +1,31 @@
+{
+  "name": "server_controller_bot",
+  "version": "1.0.0",
+  "description": "This is a telegram bot used to control a remove server.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "develop": "tsnd --respawn",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonovanKelly/server_controller_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DonovanKelly/server_controller_bot/issues"
+  },
+  "homepage": "https://github.com/DonovanKelly/server_controller_bot#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "telegraf": "^4.12.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
